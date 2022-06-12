@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodytotal{
+    background-image: url(../img/eclipse-gf7b131821_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabeçalho {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+#imglogotipo {
+    border-radius: 50%;
+}
+#imgnome {
+    border-radius:50%;
+}
+.títulooculto {
+    width:0%;
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    width: 50px;
+    border-radius: 10%;
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav{
+    background-color: black;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    position: absolute;
+}
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(250px);
+}
+.listavertical{
+    top: 80px;
+    position:absolute;
+    width: 100%;
+}
+a{
+    background-color: black;
+    display: block;
+    padding: 20px 5px;
+    color:aliceblue;
+}
+a:hover{
+  background-color: grey;
+  color: black;
+}
+label{
+    background-color: black;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.antiherói {
+    display: block;
+    justify-content:center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.parh{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+.nomesAH {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+.antianti {
+    background-color: darkgray;
+    border-width: 20px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+.título1 {
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-width: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color:darkgray;
+}
+.estrofe1 {
+    display: block;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: goldenrod;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+.estrofe2 {
+    margin-top: none;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: goldenrod;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+.estrofe3 {
+    margin-top: none;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: goldenrod;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+.estrofe4 {
+    margin-top: none;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: goldenrod;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+.estrofe5 {
+    margin-top: none;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: goldenrod;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+.Qualé {
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    border-width: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color:darkgray;
+}
+.obsesso {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: white;
+    border-radius: 10%;
+}
+.obsessoitem {
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+.escolha1 {
+    margin-top: 20px;
+}
+.botão {
+    padding: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #000000;
+    margin-left: 430px;
+    width: 25%;
+    color:#000000;
+    border-radius: 13%;
+    background-image: linear-gradient(to top right,#B58B00,yellow,#ffb12a,#ffae42,#ff9202,#ffa500,#ff4500,#ff2400,black);
+}
+.modal{
+    margin-left: 300px;
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, 
+    transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+.modal-content{
+    background-color: black;
+    color:white;
+    padding: 16px 24px;
+    width: 384px;
+    border-radius: 0.5rem;
+}
+.span1{
+    float: right;
+    width: 24px;
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 24px;
+}
+span1:hover{
+    background-color: red;
+}
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+.suportett{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+    background-color:#000000;
+    border-radius: 10%;
+    border-width: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color:white;
+}
+.botãott {
+    padding: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    background-color: #000000;
+    color: white;
+    border-radius: 10%;
+    width: 30%;
+}
+.footerfinal {
+    background-color: black;
+}
+.imgfooter {
+    border-radius: 20%;
+}
+.itemfooter {
+    display:flex;
+    justify-content: flex-end;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    margin-right: 30px;
+}
+.item2footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+}
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Comunidade Anti-Herói</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script  defer src="scripts/script.js"></script>
+</head>
+<body class="bodytotal">
+    <div>
+        <header class="cabeçalho">
+            <img id="imglogotipo" src="img/Camada 1.png" alt="logotipo Comunidade Anti-Héroi" width="80px">
+            <img id="venom" src="img/venom.jpg" alt="venom" width="100px">
+        </header>
+    </div>
+    <main>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <img class="menu" src="img/menu vertical.png">
+            </label>
+       <nav>
+        <ul class="listavertical">
+        <li><a href="principal.html"><h4 class="itemlista">Políticamente incorreto mais verdade</h4></a></li>
+        <li><a href="principal2.html"><h4 class="itemlista">Quem você se inspira?</h4></a></li>
+        <li><a href="principal3.html"><h4 class="itemlista">Que Anti-Herói você seria?</h4></a></li>
+        <li><a href="principal4.html"><h4 class="itemlista">Suporte</h4></a></li>
+        </ul>
+        </nav>
+        <section>
+            <div><form action="">
+                   <ul class="obsesso"><h2 class="Qualé">Qual é sua obsessão?</h2>>
+
+                        <div><li class="obsessoitem"><input onclick="prazer()" class="escolha1" type="radio" id="item1" name="obsesso" value="obsesso por prazer" required>
+                        <label style="background-color: white;" style="color:black;" style="padding: none;" style="margin: none;"
+                        style="position: block;" style="padding: 1px;" for="item1"><h3>obsesso por prazer</h3></label></li><br></div>
+                        <div class="modal" id="prazer">
+                            <div class="modal-content">
+                                <span class="span1" onclick="prazer1()">&times;</span>
+                                <h2><br>
+                                    Anti-Heróis Parecidos com você:<br>
+                                    <br></h2>
+                                    <p>
+                                    <img src="/Tudo/AH/Lobo.jpg" alt="LObo" width="90px">
+                                    <img src="/Tudo/AH/Hisoka.jpg" alt="Hisoka" width="180px">
+                                    <img src="/Tudo/AH/Arlequina.jpg" alt="Arlequina" width="190px">
+                                    <img src="/Tudo/AH/deadpool.jpg" alt="Deadpool" width="190px"></p>
+                            </div>
+                        </div>
+
+                        <div><li class="obsessoitem"><input onclick="dinheiro()" class="escolha1" type="radio" id="item2" name="obsesso" value="obsesso por dinheiro" required>
+                        <label style="background-color: white;" style="color:black;" style="padding: none;" style="margin: none;"
+                        style="position: block;" style="padding: 1px;" for="item2"><h3>obsesso por dinheiro</h3></label></li><br></div>
+                        <div class="modal" id="dinheiro">
+                            <div class="modal-content">
+                                <span class="span1" onclick="dinheiro1()">&times;</span>
+                                <h2><br>
+                                    Anti-Heróis Parecidos com você:<br>
+                                    <br></h2>
+                                    <p>
+                                    <img src="/Tudo/AH/deathstroke.jpg" alt="Deathstroke" width="200px">
+                                    <img src="/Tudo/AH/deadpool.jpg" alt="Deadpool" width="210px">
+                                    <img src="AH/Mulher-Gato.jpg" alt="Mulher Gato"  width="170px"></p>
+                            </div>
+                        </div>
+
+                        <div><li class="obsessoitem"><input onclick="poder()" class="escolha1" type="radio" id="item3" name="obsesso" value="obsesso por poder" required>
+                        <label style="background-color: white;" style="color:black;" style="padding: none;" style="margin: none;"
+                        style="position: block;" style="padding: 1px;" for="item3"><h3>obsesso por poder</h3></label></li><br></div>
+                        <div class="modal" id="poder">
+                            <div class="modal-content">
+                                <span class="span1" onclick="poder1()">&times;</span>
+                                <h2><br>
+                                    Anti-Heróis Parecidos com você:<br>
+                                    <br></h2>
+                                    <p>
+                                    <img src="/Tudo/AH/deathstroke.jpg" alt="Deathstroke" width="175px">
+                                    <img src="/Tudo/AH/Ikki de Fênis.jpg" alt="Ikki de Fênis" width="130px">
+                                    <img src="/Tudo/AH/vegeta.jpg" alt="Vegeta" width="160px"></p>
+                            </div>
+                        </div>
+
+                        <div><li class="obsessoitem"><input onclick="raiva()" class="escolha1" type="radio" id="item4" name="obsesso" value="obsesso de raiva" required>
+                        <label style="background-color: white;" style="color:black;" style="padding: none;" style="margin: none;"
+                        style="position: block;" style="padding: 1px;" for="item4"><h3>obsesso de raiva</h3></label></li><br></div>
+                        <div class="modal" id="raiva">
+                            <div class="modal-content">
+                                <span class="span1" onclick="raiva1()">&times;</span>
+                                <h2><br>
+                                    Anti-Heróis Parecidos com você:<br>
+                                    <br></h2>
+                                    <p>
+                                    <img src="/Tudo/AH/motoqueiro fantasma.jpg" alt="Motoqueiro Fantasma" width="130px">
+                                    <img src="/Tudo/AH/spawn.jpg" alt="spawn" width="180px">
+                                    <img src="/Tudo/AH/Blade.jpg" alt="Blade" width="170px"></p>
+                            </div>
+                        </div>
+
+                        <div><li class="obsessoitem"><input onclick="tristeza()" class="escolha1" type="radio" id="item5" name="obsesso" value="obsesso de tristeza" required>
+                        <label style="background-color: white;" style="color:black;" style="padding: none;" style="margin: none;"
+                        style="position: block;" style="padding: 1px;" for="item5"><h3>obsesso de tristeza</h3></label></li><br></div>
+                        <div class="modal" id="tristeza">
+                            <div class="modal-content">
+                                <span class="span1" onclick="tristeza1()">&times;</span>
+                                <h2><br>
+                                    Anti-Heróis Parecidos com você:<br>
+                                    <br></h2>
+                                    <p>
+                                    <img src="/Tudo/AH/Justiceiro.jpg" alt="Justiceiro" width="170px">
+                                    <img src="/Tudo/AH/Ikki de Fênis.jpg" alt="Ikki de Fênis" width="130px">
+                                    <img src="AH/Constantine.jpg" alt="John Constantine" width="170px">
+                                    <img src="AH/Pacificador.jpg" alt="Pacificador" width="170px"></p>
+                            </div>
+                        </div>
+
+                        <div><li class="obsessoitem"><input onclick="amor()" class="escolha1" type="radio" id="item6" name="obsesso" value="obsesso de amor" required>
+                        <label style="background-color: white;" style="color:black;" style="padding: none;" style="margin: none;"
+                        style="position: block;" style="padding: 1px;" for="item6"><h3>obsesso de amor</h3></label></li><br></div>
+                        <div class="modal" id="amor">
+                            <div class="modal-content">
+                                <span class="span1" onclick="amor1()">&times;</span>
+                                <h2><br>
+                                    Anti-Heróis Parecidos com você:<br>
+                                    <br></h2>
+                                    <p>
+                                        <img src="/Tudo/AH/deadpool.jpg" alt="Deadpool" width="210px">
+                                        <img src="/Tudo/AH/Arlequina.jpg" alt="Arlequina" width="190px">
+                                        <img src="AH/Constantine.jpg" alt="John Constantine" width="170px"></p>
+                            </div>
+                        </div>
+                   </ul>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div>
+        <footer class="footerfinal"><br>
+            <br>
+            <h2 class="item2footer">Programador "GonnTT"</h2>
+            <br>
+            <h3 class="item2footer">Proprietário "GonnTT"</h3>
+            <br>
+            <h4 class="item2footer">Gonntt(Gabriel Gonçalves)</h4>
+        <h3 class="itemfooter">Siga nosso Instagram  :<img class="imgfooter" src="img/instagram.jpg" width="40px"></h3>
+        <h3 class="itemfooter">Siga nosso TiTok      :<img class="imgfooter" src="img/tik tok.jpg" width="40px"></h3>
+        <h3 class="itemfooter">Siga nosso Facebook   :<img class="imgfooter" src="img/facebook.jpg" width="40px"></h3>
+        <h3 class="itemfooter">Siga nosso Twitter    :<img class="imgfooter" src="img/twitter.jpg" width="40px"></h3>
+    </footer>
+    </div>
+</body>
+</html>
