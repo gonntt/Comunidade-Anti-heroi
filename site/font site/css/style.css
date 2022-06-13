@@ -15,6 +15,10 @@
 #imglogotipo {
     border-radius: 50%;
 }
+.acabalogokk:hover{
+    background: none;
+    color: aliceblue;
+}
 #imgnome {
     border-radius:50%;
 }
@@ -191,17 +195,6 @@ label{
 }
 .escolha1 {
     margin-top: 20px;
-}
-.botão {
-    padding: 15px;
-    border-style: solid;
-    border-width: medium;
-    border-color: #000000;
-    margin-left: 430px;
-    width: 25%;
-    color:#000000;
-    border-radius: 13%;
-    background-image: linear-gradient(to top right,#B58B00,yellow,#ffb12a,#ffae42,#ff9202,#ffa500,#ff4500,#ff2400,black);
 }
 .modal{
     margin-left: 300px;
